@@ -10,7 +10,7 @@ To get started with autoscaling navigate to your App Service plan in the Azure p
 
 By default, an App Service Plan only implements manual scaling. Selecting **Custom autoscale** reveals condition groups you can use to manage your scale settings.
 
-:::image type="content" source="../media/enable-autoscale.png" alt-text="Enabling autoscale":::
+![Enabling autoscale](./media/enable-autoscale.png)
 
 ## Add scale conditions
 
@@ -18,7 +18,7 @@ Once you enable autoscaling, you can edit the automatically created default scal
 
 The Default scale condition is executed when none of the other scale conditions are active. 
 
-:::image type="content" source="../media/autoscale-conditions.png" alt-text="The condition page for an App Service Plan showing the default scale condition.":::
+![The condition page for an App Service Plan showing the default scale condition.](./media/autoscale-conditions.png)
 
 A metric-based scale condition can also specify the minimum and maximum number of instances to create. The maximum number can't exceed the limits defined by the pricing tier. Additionally, all scale conditions other than the default may include a schedule indicating when the condition should be applied.
 
@@ -26,14 +26,14 @@ A metric-based scale condition can also specify the minimum and maximum number o
 
 A metric-based scale condition contains one or more scale rules. You use the **Add a rule** link to add your own custom rules. You define the criteria that indicate when a rule should trigger an autoscale action, and the autoscale action to be performed (scale out or scale in) using the metrics, aggregations, operators, and thresholds described earlier.
 
-:::image type="content" source="../media/autoscale-rules.png" alt-text="The scale rule settings pane.":::
+![The scale rule settings pane.](./media/autoscale-rules.png)
 
 ## Monitor autoscaling activity
 
 The Azure portal enables you to track when autoscaling has occurred through the **Run history** chart. This chart shows how the number of instances varies over time, and which autoscale conditions caused each change.
 
-:::image type="content" source="../media/autoscale-run-history.png" alt-text="The Run history information for the app.":::
+![The Run history information for the app.](./media/autoscale-run-history.png)
 
 You can use the **Run history** chart with the metrics shown on the **Overview** page to correlate the autoscaling events with resource utilization.
 
-:::image type="content" source="../media/service-plan-metrics.png" alt-text="The metrics shown on the App Service Plan overview page.":::
+![The metrics shown on the App Service Plan overview page.](./media/service-plan-metrics.png)

@@ -6,7 +6,7 @@ Azure Queue Storage is a service for storing large numbers of messages. You acce
 
 The Queue service contains the following components:
 
-:::image type="content" source="../media/queue-storage-service-components.png" alt-text="Image showing components of the queue service":::
+![Image showing components of the queue service](./media/queue-storage-service-components.png)
 
 * **URL format:** Queues are addressable using the URL format `https://<storage account>.queue.core.windows.net/<queue>`. For example, the following URL addresses a queue in the diagram above `https://myaccount.queue.core.windows.net/images-to-download`
 

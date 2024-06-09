@@ -10,7 +10,7 @@ Azure Functions uses a component called the *scale controller* to monitor the ra
 
 The unit of scale for Azure Functions is the function app. When the function app is scaled out, more resources are allocated to run multiple instances of the Azure Functions host. Conversely, as compute demand is reduced, the scale controller removes function host instances. The number of instances is eventually "scaled in" to zero when no functions are running within a function app.
 
-:::image type="content" source="../media/central-listener.png" alt-text="Scale controller monitoring events and creating instances":::
+![Scale controller monitoring events and creating instances](./media/central-listener.png)
 
 > [!NOTE]
 > After your function app has been idle for a number of minutes, the platform may scale the number of instances on which your app runs in to zero. The next request has the added latency of scaling from zero to one. This latency is referred to as a *cold start*.

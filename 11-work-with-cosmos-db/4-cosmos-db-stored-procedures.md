@@ -72,4 +72,4 @@ All Azure Cosmos DB operations must complete within a limited amount of time. St
 
 You can implement transactions on items within a container by using a stored procedure. JavaScript functions can implement a continuation-based model to batch or resume execution. The continuation value can be any value of your choice and your applications can then use this value to resume a transaction from a new starting point. The following diagram depicts how the transaction continuation model can be used to repeat a server-side function until the function finishes its entire processing workload.
 
-:::image type="content" source="../media/transaction-continuation-model.png" alt-text="This diagram depicts how the transaction continuation model can be used to repeat a server-side function until the function finishes its entire processing workload.":::
+![This diagram depicts how the transaction continuation model can be used to repeat a server-side function until the function finishes its entire processing workload.](./media/transaction-continuation-model.png)

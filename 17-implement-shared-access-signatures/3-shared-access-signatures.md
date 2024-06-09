@@ -4,11 +4,11 @@ A common scenario where a SAS is useful is a service where users read and write 
 
 * Clients upload and download data via a front-end proxy service, which performs authentication. This front-end proxy service has the advantage of allowing validation of business rules, but for large amounts of data or high-volume transactions, creating a service that can scale to match demand may be expensive or difficult.
 
-    :::image type="content" source="../media/storage-proxy-service.png" alt-text="Scenario diagram: Front-end proxy service":::
+![Scenario diagram: Front-end proxy service](./media/storage-proxy-service.png)
 
 * A lightweight service authenticates the client as needed and then generates a SAS. Once the client application receives the SAS, they can access storage account resources directly with the permissions defined by the SAS and for the interval allowed by the SAS. The SAS mitigates the need for routing all data through the front-end proxy service.
 
-    :::image type="content" source="../media/storage-provider-service.png" alt-text="Scenario diagram: SAS provider service":::
+![Scenario diagram: SAS provider service](./media/storage-provider-service.png)
 
 Many real-world services might use a hybrid of these two approaches. For example, some data might be processed and validated via the front-end proxy, while other data is saved and/or read directly using SAS.
 

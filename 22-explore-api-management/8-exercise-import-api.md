@@ -14,11 +14,11 @@ In this exercise you learn how to perform the following actions:
 
 1. Sign in to the [Azure portal](https://portal.azure.com) and open the Cloud Shell.
 
-    :::image type="content" source="../media/cloud-shell-menu.png" alt-text="The location of Cloud Shell launch button.":::
+![The location of Cloud Shell launch button.](./media/cloud-shell-menu.png)
 
 1. After the shell opens be sure to select the **Bash** environment.
 
-    :::image type="content" source="../media/shell-bash-selection.png" alt-text="Selecting the Bash environment.":::
+![Selecting the Bash environment.](./media/shell-bash-selection.png)
 
 ## Create an API Management instance
 
@@ -59,11 +59,11 @@ This section shows how to import and publish an OpenAPI specification backend AP
 
 1. Select **APIs** in the **API management service** navigation pane.
 
-    :::image type="content" source="../media/select-apis-navigation-pane.png" alt-text="Select APIs in the service navigation pane.":::
+![Select APIs in the service navigation pane.](./media/select-apis-navigation-pane.png)
 
 1. Select **OpenAPI** from the list and select **Full** in the pop-up.
 
-    :::image type="content" source="../media/create-api.png" alt-text="The OpenAPI dialog box. Fields are detailed in the following table.":::
+![The OpenAPI dialog box. Fields are detailed in the following table.](./media/create-api.png)
 
     Use the values from the table below to fill out the form. You can leave any fields not mentioned their default value.
 
@@ -86,7 +86,7 @@ The *Demo Conference API* is created and a backend needs to be specified.
 
 1. Deselect the **Subscription required** checkbox.
 
-    :::image type="content" source="../media/api-settings-backend.png" alt-text="Specify the backend URL for the API.":::
+![Specify the backend URL for the API.](./media/api-settings-backend.png)
 
 1. Select **Save**.
 
@@ -96,7 +96,7 @@ Now that the API has been imported and the backend configured it's time to test 
 
 1. Select **Test**.
 
-    :::image type="content" source="../media/select-test.png" alt-text="Select test in the right pane.":::
+![Select test in the right pane.](./media/select-test.png)
 
 1. Select **GetSpeakers**. The page shows **Query parameters** and **Headers**, if any. The `Ocp-Apim-Subscription-Key` is filled in automatically for the subscription key associated with this API.
 

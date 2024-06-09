@@ -25,7 +25,7 @@ The following table highlights some of the key differences between the two types
 
 The following image gives an overview of the scenarios that support using managed identities. For example, you can use managed identities if you want to build an app using Azure App Services that accesses Azure Storage without having to manage any credentials. 
 
-:::image type="content" source="../media/managed-identities-use-case.png" alt-text="Image showing a list of sources that gain access to targets through Microsoft Entra ID.":::
+![Image showing a list of sources that gain access to targets through Microsoft Entra ID.](./media/managed-identities-use-case.png)
 
 ## What Azure services support managed identities?
 

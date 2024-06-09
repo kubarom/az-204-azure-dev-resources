@@ -12,11 +12,11 @@ In this exercise you learn how to perform the following actions:
 
 1. Sign-in to the [Azure portal](https://portal.azure.com) and open the Cloud Shell.
 
-    :::image type="content" source="../media/cloud-shell-menu.png" alt-text="The location of Cloud Shell launch button.":::
+![The location of Cloud Shell launch button.](./media/cloud-shell-menu.png)
 
 1. When the shell opens be sure to select the **Bash** environment.
 
-    :::image type="content" source="../media/shell-bash-selection.png" alt-text="Selecting the Bash environment.":::
+![Selecting the Bash environment.](./media/shell-bash-selection.png)
 
 1. Create a new resource group with the name **az204-aci-rg** so that it's easier to clean up these resources when you're finished with the module. Replace `<myLocation>` with a region near you.
 

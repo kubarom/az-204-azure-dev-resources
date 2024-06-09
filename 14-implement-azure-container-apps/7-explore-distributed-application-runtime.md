@@ -11,7 +11,7 @@ Dapr is an open source, [Cloud Native Computing Foundation (CNCF)](https://www.c
 
 ## Dapr APIs
 
-:::image type="content" source="../media/azure-container-apps-distributed-application-runtime-building-blocks.png" alt-text="Decorative":::
+![Decorative](./media/azure-container-apps-distributed-application-runtime-building-blocks.png)
 
 | Dapr API | Description |
 |--|--|
@@ -30,7 +30,7 @@ Dapr is an open source, [Cloud Native Computing Foundation (CNCF)](https://www.c
 
 The following example based on the Pub/sub API is used to illustrate core concepts related to Dapr in Azure Container Apps.
 
-:::image type="content" source="../media/distributed-application-runtime-container-apps.png" alt-text="Diagram that shows the Dapr pub/sub A P I and how it works in Container Apps.":::
+![Diagram that shows the Dapr pub/sub A P I and how it works in Container Apps.](./media/distributed-application-runtime-container-apps.png)
 
 | Label | Dapr settings | Description |
 |--|--|--|

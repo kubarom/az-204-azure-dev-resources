@@ -10,11 +10,11 @@ In this exercise you create a secure Container Apps environment and deploy conta
 
 1. Sign in to the [Azure portal](https://portal.azure.com) and open the Cloud Shell.
 
-    :::image type="content" source="../media/cloud-shell-menu.png" alt-text="Screenshot showing the location of Cloud Shell launch button.":::
+![Screenshot showing the location of Cloud Shell launch button.](./media/cloud-shell-menu.png)
 
 1. After the shell opens be sure to select the **Bash** environment.
 
-    :::image type="content" source="../media/shell-bash-selection.png" alt-text="Screenshot showing the location of the shell selection.":::
+![Screenshot showing the location of the shell selection.](./media/shell-bash-selection.png)
 
 1. Install the Azure Container Apps extension for the CLI.
 
@@ -94,7 +94,7 @@ After the container app environment finishes deployment, you can deploy a contai
 
 Select the link returned by the `az containerapp create` command to verify the container app is running. 
 
-:::image type="content" source="../media/azure-container-apps-exercise.png" alt-text="Screenshot showing the sample app running in a browser.":::
+![Screenshot showing the sample app running in a browser.](./media/azure-container-apps-exercise.png)
 
 
 ## Clean up resources

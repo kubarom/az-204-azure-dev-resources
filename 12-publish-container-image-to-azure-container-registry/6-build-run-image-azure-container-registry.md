@@ -14,11 +14,11 @@ In this exercise you use ACR Tasks to perform the following actions:
 
 1. Sign in to the [Azure portal](https://portal.azure.com) and open the Cloud Shell.
 
-    :::image type="content" source="../media/cloud-shell-menu.png" alt-text="The location of Cloud Shell launch button.":::
+![The location of Cloud Shell launch button.](./media/cloud-shell-menu.png)
 
 1. When the shell opens select the **Bash** environment.
 
-    :::image type="content" source="../media/shell-bash-selection.png" alt-text="Selecting the Bash environment.":::
+![Selecting the Bash environment.](./media/shell-bash-selection.png)
 
 ## Create an Azure Container Registry
 

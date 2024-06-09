@@ -22,7 +22,7 @@ Applications that call a protected API must include the key in every request.
 
 You can regenerate these subscription keys at any time, for example, if you suspect that a key has been shared with unauthorized users.
 
-:::image type="content" source="../media/subscription-keys.png" alt-text="Image showing the Subscriptions screen.":::
+![Image showing the Subscriptions screen.](./media/subscription-keys.png)
 
 Every subscription has two keys, a primary and a secondary. Having two keys makes it easier when you do need to regenerate a key. For example, if you want to change the primary key and avoid downtime, use the secondary key in your apps.
 
@@ -36,7 +36,7 @@ The default header name is **Ocp-Apim-Subscription-Key**, and the default query 
 
 To test out your API calls, you can use the developer portal, or command-line tools, such as **curl**. Here's an example of a `GET` request using the developer portal, which shows the subscription key header:
 
-:::image type="content" source="../media/key-header-portal.png" alt-text="Call API from developer portal":::
+![Call API from developer portal](./media/key-header-portal.png)
 
 Here's how you can pass a key in the request header using **curl**:
 

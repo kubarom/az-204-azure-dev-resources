@@ -23,7 +23,7 @@ In this section, you use Visual Studio Code to create a local Azure Functions pr
 
 1. Choose the Azure icon in the Activity bar, then in the **Workspace** area, select **Add...**. Finally, select **Create Function...**.
 
-    :::image type="content" source="../media/create-function.png" alt-text="Choosing to create a new project.":::    
+![Choosing to create a new project.](./media/create-function.png)
 
     > [!NOTE]
     > A pop-up message will likely appear prompting you to create a new project, if it does select **Create new project**.
@@ -53,11 +53,11 @@ Visual Studio Code integrates with Azure Functions Core tools to let you run thi
 
 1. Press **F5** to start the function app project in the debugger. Output from Core Tools is displayed in the **Terminal** panel. Your app starts in the **Terminal** panel. You can see the URL endpoint of your HTTP-triggered function running locally.
 
-    :::image type="content" source="../media/run-function-local.png" alt-text="The endpoint of your HTTP-triggered function is displayed in the **Terminal** panel.":::    
+![The endpoint of your HTTP-triggered function is displayed in the **Terminal** panel.](./media/run-function-local.png)
 
 1. With Core Tools running, go to the **Azure: Functions** area. Under **Functions**, expand **Local Project** > **Functions**. Right-click the `HttpExample` function and choose **Execute Function Now...**.
 
-    :::image type="content" source="../media/execute-function.png" alt-text="Steps for running the function locally as described in the text.":::    
+![Steps for running the function locally as described in the text.](./media/execute-function.png)
 
 1. In **Enter request body** type the request message body value of `{ "name": "Azure" }`. Press **Enter** to send this request message to your function. When the function executes locally and returns a response, a notification is raised in Visual Studio Code. Information about the function execution is shown in **Terminal** panel.
 
@@ -71,7 +71,7 @@ Before you can publish your app, you must sign in to Azure. If you're already si
 
 1. If you aren't already signed in, choose the Azure icon in the Activity bar, then in the **Azure: Functions** area, choose **Sign in to Azure...**.
 
-    :::image type="content" source="../media/functions-sign-into-azure.png" alt-text="Sign in to Azure within VS Code":::    
+![Sign in to Azure within VS Code](./media/functions-sign-into-azure.png)
 
 1. When prompted in the browser, choose your Azure account and sign in using your Azure account credentials.
 
@@ -83,7 +83,7 @@ In this section, you create the Azure resources you need to deploy your local fu
 
 1. Choose the Azure icon in the Activity bar, then in the **Resources** area select the **Create resource...** button.
 
-    :::image type="content" source="../media/create-resource.png" alt-text="Location of the Deploy to Function app button.":::    
+![Location of the Deploy to Function app button.](./media/create-resource.png)
 
 1. Provide the following information at the prompts:
 
@@ -107,7 +107,7 @@ In this section, you create the Azure resources you need to deploy your local fu
 
 1. In the **WORKSPACE** section of the **Azure** bar select the **Deploy...** button, and then select **Deploy to Function App...**.
 
-    :::image type="content" source="../media/deploy-function-app.png" alt-text="Image showing location of the **Deploy...** button.":::
+![Image showing location of the **Deploy...** button.](./media/deploy-function-app.png)
 
 1. When prompted to **Select a resource**, choose the function app you created in the previous section.
 
@@ -120,10 +120,10 @@ In this section, you create the Azure resources you need to deploy your local fu
 
 1. Back in the **Resources** area in the side bar, expand your subscription, your new function app, and **Functions**. **Right-click** the `HttpExample` function and choose **Execute Function Now...**.
 
-    :::image type="content" source="../media/execute-function-now.png" alt-text="Execute function now in Azure from Visual Studio Code"::: 
+![Execute function now in Azure from Visual Studio Code](./media/execute-function-now.png)
 
 1. In **Enter request body** you see the request message body value of `{ "name": "Azure" }`. Press Enter to send this request message to your function.
 
 1. When the function executes in Azure and returns a response, a notification is raised in Visual Studio Code.
 
-    :::image type="content" source="../media/executed-function-notification.png" alt-text="Executed function notification":::
+![Executed function notification](./media/executed-function-notification.png)

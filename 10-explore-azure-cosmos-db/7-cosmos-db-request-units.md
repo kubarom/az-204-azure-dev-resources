@@ -8,7 +8,7 @@ The cost to do a point read, which is fetching a single item by its ID and parti
 
 The following image shows the high-level idea of RUs:
 
-:::image type="content" source="../media/request-units.png" alt-text="Image showing how database operations consume request units.":::
+![Image showing how database operations consume request units.](./media/request-units.png)
 
 The type of Azure Cosmos DB account you're using determines the way consumed RUs get charged. There are three modes in which you can create an account:
 

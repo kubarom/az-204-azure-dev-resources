@@ -16,7 +16,7 @@ The top-level resource in Azure Container Instances is the *container group*. A 
 
 The following diagram shows an example of a container group that includes multiple containers:
 
-:::image type="content" source="../media/container-groups-example.png" alt-text="Example container group with two containers, one listening on port 80 and the other listening on port 5000.":::
+![Example container group with two containers, one listening on port 80 and the other listening on port 5000.](./media/container-groups-example.png)
 
 This example container group:
 

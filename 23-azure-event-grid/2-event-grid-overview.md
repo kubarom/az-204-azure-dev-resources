@@ -6,7 +6,7 @@ You can use filters to route specific events to different endpoints, multicast t
 
 The following image shows how Event Grid connects sources and handlers, and isn't a comprehensive list of supported integrations.
 
-:::image type="content" source="../media/functional-model.png" alt-text="Image showing the Event Grid model of sources and handlers":::
+![Image showing the Event Grid model of sources and handlers](./media/functional-model.png)
 
 ## Concepts in Azure Event Grid
 

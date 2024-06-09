@@ -25,4 +25,4 @@ Event Hubs contains the following key components:
 
 The following figure shows the Event Hubs stream processing architecture:
 
-:::image type="content" source="../media/event-hubs-stream-processing.png" alt-text="Image showing the event processing flow.":::
+![Image showing the event processing flow.](./media/event-hubs-stream-processing.png)

@@ -4,7 +4,7 @@ A list of the currently available settings:
 
 * **Stack settings**: The software stack to run the app, including the language and SDK versions. For Linux apps and custom container apps, you can also set an optional start-up command or file.
 
-    :::image type="content" source="../media/open-general-linux.png" alt-text="Establishing the stack settings that include the programming language.":::
+![Establishing the stack settings that include the programming language.](./media/open-general-linux.png)
 
 * **Platform settings**: Lets you configure settings for the hosting platform, including:
 

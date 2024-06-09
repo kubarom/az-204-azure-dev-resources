@@ -160,7 +160,7 @@ namespace az204_auth
 
 1. If this is the first time you've authenticated to the registered app you receive a **Permissions requested** notification asking you to approve the app to read data associated with your account. Select **Accept**.
 
-    :::image type="content" source="../media/permission-consent.png" alt-text="Select **Accept** to grant the permission.":::    
+![Select **Accept** to grant the permission.](./media/permission-consent.png)
 
 1. You should see the results similar to the example below in the console.
 

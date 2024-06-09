@@ -10,7 +10,7 @@ Currently, you can create a maximum of 50 Azure Cosmos DB accounts under an Azur
 
 The following image shows the hierarchy of different entities in an Azure Cosmos DB account:
 
-:::image type="content" source="../media/cosmos-entities.png" alt-text="Image showing the hierarchy of Azure Cosmos DB entities: Database accounts are at the top, Databases are grouped under accounts, Containers are grouped under databases.":::
+![Image showing the hierarchy of Azure Cosmos DB entities: Database accounts are at the top, Databases are grouped under accounts, Containers are grouped under databases.](./media/cosmos-entities.png)
 
 
 ## Azure Cosmos DB databases

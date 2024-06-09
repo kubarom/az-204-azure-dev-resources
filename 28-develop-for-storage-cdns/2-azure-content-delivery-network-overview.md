@@ -8,7 +8,7 @@ The benefits of using Azure CDN to deliver web site assets include:
 
 ## How Azure Content Delivery Network works
 
-:::image type="content" source="../media/azure-content-delivery-network.png" alt-text="Image showing how Azure CDN operates, the steps shown in the image are explained next.":::
+![Image showing how Azure CDN operates, the steps shown in the image are explained next.](./media/azure-content-delivery-network.png)
 
 1.  A user (Alice) requests a file (also called an asset) by using a URL with a special domain name, such as `<endpoint name>.azureedge.net`. This name can be an endpoint hostname or a custom domain. The DNS routes the request to the best performing POP location, which is usually the POP that is geographically closest to the user.
 
