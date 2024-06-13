@@ -45,5 +45,5 @@ The parameters on the `WWW-Authenticate` header are:
 
 ## Other resources
 
-* [Azure Key Vault developer's guide](/azure/key-vault/general/developers-guide)
-* [Azure Key Vault availability and redundancy](/azure/key-vault/general/disaster-recovery-guidance)
+* [Azure Key Vault developer's guide](https://learn.microsoft.com/en-us/azure/key-vault/general/developers-guide)
+* [Azure Key Vault availability and redundancy](https://learn.microsoft.com/en-us/azure/key-vault/general/disaster-recovery-guidance)

@@ -26,4 +26,4 @@ Perfect Forward Secrecy (PFS) protects connections between customers’ client s
 
 * **Logging:** Be sure to turn on logging and alerts.
 
-* **Recovery options:** Turn on [soft-delete](/azure/key-vault/general/soft-delete-overview) and purge protection if you want to guard against force deletion of the secret.
+* **Recovery options:** Turn on [soft-delete](https://learn.microsoft.com/en-us/azure/key-vault/general/soft-delete-overview) and purge protection if you want to guard against force deletion of the secret.

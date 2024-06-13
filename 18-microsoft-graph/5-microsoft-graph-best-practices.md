@@ -7,7 +7,7 @@ To access the data in Microsoft Graph, your application needs to acquire an OAut
 * The HTTP *Authorization* request header, as a *Bearer* token
 * The graph client constructor, when using a Microsoft Graph client library
 
-Use the Microsoft Authentication Library API, [MSAL](/azure/active-directory/develop/active-directory-v2-libraries) to acquire the access token to Microsoft Graph.
+Use the Microsoft Authentication Library API, [MSAL](https://learn.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-libraries) to acquire the access token to Microsoft Graph.
 
 ## Consent and authorization
 
@@ -24,7 +24,7 @@ Apply the following best practices for consent and authorization in your app:
 
     * Consider who will be consenting to your application, either end users or administrators, and configure your application to [request permissions appropriately](/azure/active-directory/develop/v2-permissions-and-consent).
 
-    * Ensure that you understand the difference between [static, dynamic and incremental consent](/azure/active-directory/develop/v2-permissions-and-consent#consent-types).
+    * Ensure that you understand the difference between [static, dynamic and incremental consent](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-permissions-and-consent#consent-types).
 
 * **Consider multi-tenant applications**. Expect customers to have various application and consent controls in different states. For example:
 

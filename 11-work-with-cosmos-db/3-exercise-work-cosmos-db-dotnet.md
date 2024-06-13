@@ -14,7 +14,7 @@ In this exercise you create a console app to perform the following operations in
 
 * The [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) for Visual Studio Code.
   
-*  The latest [Azure CLI](/cli/azure/install-azure-cli) tools, installed locally.
+*  The latest [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli) tools, installed locally.
 
 ## Setting up
 

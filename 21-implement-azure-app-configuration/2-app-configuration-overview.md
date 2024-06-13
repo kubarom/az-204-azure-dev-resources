@@ -25,10 +25,10 @@ The easiest way to add an App Configuration store to your application is through
 
 | Programming language and framework | How to connect |
 |--|--|
-| .NET Core and ASP.NET Core | App Configuration [provider](/dotnet/api/Microsoft.Extensions.Configuration.AzureAppConfiguration) for .NET Core |
+| .NET Core and ASP.NET Core | App Configuration [provider](https://learn.microsoft.com/en-us/dotnet/api/Microsoft.Extensions.Configuration.AzureAppConfiguration) for .NET Core |
 | .NET Framework and ASP.NET | App Configuration [builder](https://github.com/aspnet/MicrosoftConfigurationBuilders/blob/main/README.md#azureappconfigurationbuilder) for .NET |
 | Java Spring | App Configuration [client](https://microsoft.github.io/spring-cloud-azure/docs/azure-app-configuration/2.9.0/reference/html/index.html) for Spring Cloud |
 | JavaScript/Node.js | App Configuration [client](https://github.com/Azure/azure-sdk-for-js/tree/main/sdk/appconfiguration/app-configuration) for JavaScript |
 | Python | App Configuration [client](https://github.com/Azure/azure-sdk-for-python/tree/main/sdk/appconfiguration/azure-appconfiguration) for Python |
-| Others | App Configuration [REST API](/rest/api/appconfiguration/) |  
+| Others | App Configuration [REST API](https://learn.microsoft.com/en-us/rest/api/appconfiguration/) |  
 

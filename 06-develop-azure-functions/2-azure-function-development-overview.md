@@ -38,12 +38,12 @@ A function app provides an execution context in Azure in which your functions ru
 
 The code for all the functions in a specific function app is located in a root project folder that contains a host configuration file. The [host.json](/azure/azure-functions/functions-host-json) file contains runtime-specific configurations and is in the root folder of the function app. A *bin* folder contains packages and other library files that the function app requires. Specific folder structures required by the function app depend on language:
 
-* [C# compiled (.csproj)](/azure/azure-functions/functions-dotnet-class-library#functions-class-library-project)
-* [C# script (.csx)](/azure/azure-functions/functions-reference-csharp#folder-structure)
-* [F# script](/azure/azure-functions/functions-reference-fsharp#folder-structure)
-* [Java](/azure/azure-functions/functions-reference-java#folder-structure)
-* [JavaScript](/azure/azure-functions/functions-reference-node#folder-structure)
-* [Python](/azure/azure-functions/functions-reference-python#folder-structure)
+* [C# compiled (.csproj)](https://learn.microsoft.com/en-us/azure/azure-functions/functions-dotnet-class-library#functions-class-library-project)
+* [C# script (.csx)](https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-csharp#folder-structure)
+* [F# script](https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-fsharp#folder-structure)
+* [Java](https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-java#folder-structure)
+* [JavaScript](https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-node#folder-structure)
+* [Python](https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-python#folder-structure)
 
 ## Local development environments
 

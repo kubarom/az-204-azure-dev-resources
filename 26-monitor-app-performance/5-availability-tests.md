@@ -15,4 +15,4 @@ You can create up to 100 availability tests per Application Insights resource, a
 > [!IMPORTANT]
 > The **URL ping test** relies on the DNS infrastructure of the public internet to resolve the domain names of the tested endpoints. If you're using private DNS, you must ensure that the public domain name servers can resolve every domain name of your test. When that's not possible, you can use custom **TrackAvailability tests** instead.
 
-Visit the [troubleshooting](/azure/azure-monitor/app/troubleshoot-availability) article for guidance on diagnosing availability issues.
+Visit the [troubleshooting](https://learn.microsoft.com/en-us/azure/azure-monitor/app/troubleshoot-availability) article for guidance on diagnosing availability issues.

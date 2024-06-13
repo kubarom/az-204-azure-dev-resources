@@ -20,11 +20,11 @@ Dapr is an open source, [Cloud Native Computing Foundation (CNCF)](https://www.c
 | [Pub/sub](https://docs.dapr.io/developing-applications/building-blocks/pubsub/pubsub-overview) | Allows publisher and subscriber container apps to intercommunicate via an intermediary message broker. |
 | [Bindings](https://docs.dapr.io/developing-applications/building-blocks/bindings/bindings-overview/) | Trigger your applications based on events |
 | [Actors](https://docs.dapr.io/developing-applications/building-blocks/actors/actors-overview/) | Dapr actors are message-driven, single-threaded, units of work designed to quickly scale. For example, in burst-heavy workload situations. |
-| [Observability](/azure/container-apps/observability) | Send tracing information to an Application Insights backend. |
+| [Observability](https://learn.microsoft.com/en-us/azure/container-apps/observability) | Send tracing information to an Application Insights backend. |
 | [Secrets](https://docs.dapr.io/developing-applications/building-blocks/secrets/secrets-overview/) | Access secrets from your application code or reference secure values in your Dapr components. |
  
 > [!NOTE]
-> The table covers stable Dapr APIs. To learn more about using alpha APIs and features, [visit limitations](/azure/container-apps/dapr-overview?tabs=bicep1%2Cyaml#unsupported-dapr-capabilities).
+> The table covers stable Dapr APIs. To learn more about using alpha APIs and features, [visit limitations](https://learn.microsoft.com/en-us/azure/container-apps/dapr-overview?tabs=bicep1%2Cyaml#unsupported-dapr-capabilities).
 
 ## Dapr core concepts 
 

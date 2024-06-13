@@ -12,7 +12,7 @@ The following table lists the basic classes, along with a brief description:
 
 The following packages contain the classes used to work with Blob Storage data resources:
 
-* [Azure.Storage.Blobs](/dotnet/api/azure.storage.blobs): Contains the primary classes (client objects) that you can use to operate on the service, containers, and blobs.
-* [Azure.Storage.Blobs.Specialized](/dotnet/api/azure.storage.blobs.specialized): Contains classes that you can use to perform operations specific to a blob type, such as block blobs.
-* [Azure.Storage.Blobs.Models](/dotnet/api/azure.storage.blobs.models): All other utility classes, structures, and enumeration types.
+* [Azure.Storage.Blobs](https://learn.microsoft.com/en-us/dotnet/api/azure.storage.blobs): Contains the primary classes (client objects) that you can use to operate on the service, containers, and blobs.
+* [Azure.Storage.Blobs.Specialized](https://learn.microsoft.com/en-us/dotnet/api/azure.storage.blobs.specialized): Contains classes that you can use to perform operations specific to a blob type, such as block blobs.
+* [Azure.Storage.Blobs.Models](https://learn.microsoft.com/en-us/dotnet/api/azure.storage.blobs.models): All other utility classes, structures, and enumeration types.
 

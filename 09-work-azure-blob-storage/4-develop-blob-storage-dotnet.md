@@ -16,7 +16,7 @@ This exercise uses the Azure Blob storage client library to show you how to perf
 
 * The [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp) for Visual Studio Code.
 
-* [Azure CLI](/cli/azure/install-azure-cli)
+* [Azure CLI](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)
 
 ## Setting up
 

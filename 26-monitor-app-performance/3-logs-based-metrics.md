@@ -1,7 +1,7 @@
 
 Application Insights log-based metrics let you analyze the health of your monitored apps, create powerful dashboards, and configure alerts. There are two kinds of metrics:
 
-* **Log-based metrics** behind the scene are translated into [Kusto queries](/azure/kusto/query/) from stored events.
+* **Log-based metrics** behind the scene are translated into [Kusto queries](https://learn.microsoft.com/en-us/azure/kusto/query/) from stored events.
 * **Standard metrics** are stored as pre-aggregated time series.
 
 Since *standard metrics* are pre-aggregated during collection, they have better performance at query time. Standard metrics are a better choice for dashboarding and in real-time alerting. The *log-based metrics* have more dimensions, which makes them the superior option for data analysis and ad-hoc diagnostics. Use the [namespace selector](/azure/azure-monitor/essentials/metrics-getting-started#create-your-first-metric-chart) to switch between log-based and standard metrics in [metrics explorer](/azure/azure-monitor/essentials/metrics-getting-started).

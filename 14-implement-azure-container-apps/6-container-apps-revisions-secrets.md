@@ -27,7 +27,7 @@ az containerapp revision list \
   -o table
 ```
 
-For more information about Container Apps commands, visit the [az containerapp](/cli/azure/containerapp) reference.
+For more information about Container Apps commands, visit the [az containerapp](https://learn.microsoft.com/en-us/cli/azure/containerapp) reference.
 
 ## Manage secrets in Azure Container Apps
 

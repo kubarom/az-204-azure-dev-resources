@@ -96,5 +96,5 @@ The `return-response` policy aborts pipeline execution and returns either a defa
 
 ## Additional resources
 
-* Visit [API Management policies](/azure/api-management/api-management-policies) for more policy examples.
-* [Error handling in API Management policies](/azure/api-management/api-management-error-handling-policies)
+* Visit [API Management policies](https://learn.microsoft.com/en-us/azure/api-management/api-management-policies) for more policy examples.
+* [Error handling in API Management policies](https://learn.microsoft.com/en-us/azure/api-management/api-management-error-handling-policies)

@@ -110,6 +110,6 @@ var newCalendar = await graphClient.Me.Calendars
 
 ## Other resources
 
-* [Microsoft Graph REST API v1.0 reference](/graph/api/overview)
+* [Microsoft Graph REST API v1.0 reference](https://learn.microsoft.com/en-us/graph/api/overview)
 
 

@@ -158,7 +158,7 @@ public class Person
 
 For more detailed examples of triggers and bindings please visit:
 
-* [Azure Blob storage bindings for Azure Functions](/azure/azure-functions/functions-bindings-storage-blob)
-* [Azure Cosmos DB bindings for Azure Functions 2.x](/azure/azure-functions/functions-bindings-cosmosdb-v2)
-* [Timer trigger for Azure Functions](/azure/azure-functions/functions-bindings-timer)
-* [Azure Functions HTTP triggers and bindings](/azure/azure-functions/functions-bindings-http-webhook)
+* [Azure Blob storage bindings for Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-storage-blob)
+* [Azure Cosmos DB bindings for Azure Functions 2.x](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-cosmosdb-v2)
+* [Timer trigger for Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-timer)
+* [Azure Functions HTTP triggers and bindings](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-http-webhook)

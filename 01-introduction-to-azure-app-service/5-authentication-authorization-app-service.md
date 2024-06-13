@@ -17,12 +17,12 @@ App Service uses federated identity, in which a third-party identity provider ma
 
 | Provider | Sign-in endpoint | How-To guidance |
 |--|--|--|
-| Microsoft identity platform | `/.auth/login/aad` | [App Service Microsoft identity platform login](/azure/app-service/configure-authentication-provider-aad) |
-| Facebook | `/.auth/login/facebook` | [App Service Facebook login](/azure/app-service/configure-authentication-provider-facebook) |
-| Google | `/.auth/login/google` | [App Service Google login](/azure/app-service/configure-authentication-provider-google) |
-| Twitter | `/.auth/login/twitter` | [App Service Twitter login](/azure/app-service/configure-authentication-provider-twitter) |
-| Any OpenID Connect provider | `/.auth/login/<providerName>` | [App Service OpenID Connect login](/azure/app-service/configure-authentication-provider-openid-connect) |
-| GitHub | `/.auth/login/github` | [App Service GitHub login](/azure/app-service/configure-authentication-provider-github) |
+| Microsoft identity platform | `/.auth/login/aad` | [App Service Microsoft identity platform login](https://learn.microsoft.com/en-us/azure/app-service/configure-authentication-provider-aad) |
+| Facebook | `/.auth/login/facebook` | [App Service Facebook login](https://learn.microsoft.com/en-us/azure/app-service/configure-authentication-provider-facebook) |
+| Google | `/.auth/login/google` | [App Service Google login](https://learn.microsoft.com/en-us/azure/app-service/configure-authentication-provider-google) |
+| Twitter | `/.auth/login/twitter` | [App Service Twitter login](https://learn.microsoft.com/en-us/azure/app-service/configure-authentication-provider-twitter) |
+| Any OpenID Connect provider | `/.auth/login/<providerName>` | [App Service OpenID Connect login](https://learn.microsoft.com/en-us/azure/app-service/configure-authentication-provider-openid-connect) |
+| GitHub | `/.auth/login/github` | [App Service GitHub login](https://learn.microsoft.com/en-us/azure/app-service/configure-authentication-provider-github) |
 
 
 When you enable authentication and authorization with one of these providers, its sign-in endpoint is available for user authentication and for validation of authentication tokens from the provider. You can provide your users with any number of these sign-in options.

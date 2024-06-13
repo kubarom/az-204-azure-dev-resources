@@ -12,9 +12,12 @@ If you register an application in the portal, an application object (the globall
 
 A Microsoft Entra application is defined by its one and only application object. The application object resides in the Microsoft Entra tenant where the application was registered (known as the application's "home" tenant). An application object is used as a template or blueprint to create one or more service principal objects. A service principal is created in every tenant where the application is used. Similar to a class in object-oriented programming, the application object has some static properties that are applied to all the created service principals (or application instances).
 
-The application object describes three aspects of an application. How the service can issue tokens in order to access the application. Resources that the application might need to access and the actions that the application can take.
+The application object describes three aspects of an application:
+  - How the service can issue tokens in order to access the application.
+  - Resources that the application might need to access and,
+  - the actions that the application can take.
 
-The Microsoft Graph [Application entity](/graph/api/resources/application) defines the schema for an application object's properties.
+The Microsoft Graph [Application entity](https://learn.microsoft.com/en-us/graph/api/resources/application) defines the schema for an application object's properties.
 
 ## Service principal object
 

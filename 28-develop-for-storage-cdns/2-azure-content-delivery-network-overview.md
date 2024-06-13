@@ -34,7 +34,7 @@ Each Azure subscription has default limits for the following resources:
 * The number of endpoints that can be created in a CDN profile.
 * The number of custom domains that can be mapped to an endpoint.
 
-For more information about CDN subscription limits, visit [CDN limits](/azure/azure-resource-manager/management/azure-subscription-service-limits).
+For more information about CDN subscription limits, visit [CDN limits](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits).
 
 ## Azure CDN features
 
@@ -47,4 +47,4 @@ Azure CDN offers the following key features:
 * File compression
 * Geo-filtering
 
-For a complete list of features that each Azure CDN product supports, visit [Compare Azure CDN product features](/azure/cdn/cdn-features).
+For a complete list of features that each Azure CDN product supports, visit [Compare Azure CDN product features](https://learn.microsoft.com/en-us/azure/cdn/cdn-features).

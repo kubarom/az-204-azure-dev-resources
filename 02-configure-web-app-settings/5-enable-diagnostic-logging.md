@@ -59,7 +59,7 @@ In your application code, you use the usual logging facilities to send log messa
 
 * By default, ASP.NET Core uses the `Microsoft.Extensions.Logging.AzureAppServices` logging provider.
 
-* Python applications can use the [OpenCensus package](/azure/azure-monitor/app/opencensus-python) to send logs to the application diagnostics log.
+* Python applications can use the [OpenCensus package](https://learn.microsoft.com/en-us/azure/azure-monitor/app/opencensus-python) to send logs to the application diagnostics log.
 
 ## Stream logs
 
