@@ -55,7 +55,7 @@ The following code is an example of the `containers` array in the `properties.te
 
 ## Multiple containers
 
-You can define multiple containers in a single container app to implement the [sidecar pattern](/azure/architecture/patterns/sidecar). The containers in a container app share hard disk and network resources and experience the same application lifecycle.
+You can define multiple containers in a single container app to implement the [sidecar pattern](https://learn.microsoft.com/en-us/azure/architecture/patterns/sidecar). The containers in a container app share hard disk and network resources and experience the same application lifecycle.
 
 Examples of sidecar containers include:
 

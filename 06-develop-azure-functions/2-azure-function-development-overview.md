@@ -36,7 +36,7 @@ A function app provides an execution context in Azure in which your functions ru
 
 ## Folder structure
 
-The code for all the functions in a specific function app is located in a root project folder that contains a host configuration file. The [host.json](/azure/azure-functions/functions-host-json) file contains runtime-specific configurations and is in the root folder of the function app. A *bin* folder contains packages and other library files that the function app requires. Specific folder structures required by the function app depend on language:
+The code for all the functions in a specific function app is located in a root project folder that contains a host configuration file. The [host.json](https://learn.microsoft.com/en-us/azure/azure-functions/functions-host-json) file contains runtime-specific configurations and is in the root folder of the function app. A *bin* folder contains packages and other library files that the function app requires. Specific folder structures required by the function app depend on language:
 
 * [C# compiled (.csproj)](https://learn.microsoft.com/en-us/azure/azure-functions/functions-dotnet-class-library#functions-class-library-project)
 * [C# script (.csx)](https://learn.microsoft.com/en-us/azure/azure-functions/functions-reference-csharp#folder-structure)
@@ -49,7 +49,7 @@ The code for all the functions in a specific function app is located in a root p
 
 Functions make it easy to use your favorite code editor and development tools to create and test functions on your local computer. Your local functions can connect to live Azure services, and you can debug them on your local computer using the full Functions runtime.
 
-The way in which you develop functions on your local computer depends on your language and tooling preferences. See [Code and test Azure Functions locally](/azure/azure-functions/functions-develop-local) for more information.
+The way in which you develop functions on your local computer depends on your language and tooling preferences. See [Code and test Azure Functions locally](https://learn.microsoft.com/en-us/azure/azure-functions/functions-develop-local) for more information.
 
 > [!WARNING]
 > Do not mix local development with portal development in the same function app. When you create and publish functions from a local project, you should not try to maintain or modify project code in the portal.

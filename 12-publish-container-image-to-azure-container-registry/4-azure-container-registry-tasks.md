@@ -20,7 +20,7 @@ Each ACR Task has an associated source code context - the location of a set of s
 
 Before you commit your first line of code, ACR Tasks's quick task feature can provide an integrated development experience by offloading your container image builds to Azure. With quick tasks, you can verify your automated build definitions and catch potential problems prior to committing your code.
 
-Using the familiar `docker build` format, the [az acr build](/cli/azure/acr#az-acr-build) command in the Azure CLI takes a context (the set of files to build), sends it to ACR Tasks and, by default, pushes the built image to its registry upon completion.
+Using the familiar `docker build` format, the [az acr build](https://learn.microsoft.com/en-us/cli/azure/acr#az-acr-build) command in the Azure CLI takes a context (the set of files to build), sends it to ACR Tasks and, by default, pushes the built image to its registry upon completion.
 
 ## Trigger task on source code update
 
@@ -36,7 +36,7 @@ Optionally schedule a task by setting up one or more timer triggers when you cre
 
 ## Multi-step tasks
 
-Multi-step tasks, defined in a [YAML file](/azure/container-registry/container-registry-tasks-reference-yaml) specify individual build and push operations for container images or other artifacts. They can also define the execution of one or more containers, with each step using the container as its execution environment. For example, you can create a multi-step task that automates the following:
+Multi-step tasks, defined in a [YAML file](https://learn.microsoft.com/en-us/azure/container-registry/container-registry-tasks-reference-yaml) specify individual build and push operations for container images or other artifacts. They can also define the execution of one or more containers, with each step using the container as its execution environment. For example, you can create a multi-step task that automates the following:
 
 1.  Build a web application image
 1.  Run the web application container

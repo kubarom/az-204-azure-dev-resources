@@ -25,7 +25,7 @@ There are two ways you can read from the change feed with a push model: Azure Fu
 
 ### Azure Functions
 
-You can create small reactive Azure Functions that will be automatically triggered on each new event in your Azure Cosmos DB container's change feed. With the [Azure Functions trigger for Azure Cosmos DB](/azure/azure-functions/functions-bindings-cosmosdb-v2-trigger), you can use the Change Feed Processor's scaling and reliable event detection functionality without the need to maintain any worker infrastructure.
+You can create small reactive Azure Functions that will be automatically triggered on each new event in your Azure Cosmos DB container's change feed. With the [Azure Functions trigger for Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/azure-functions/functions-bindings-cosmosdb-v2-trigger), you can use the Change Feed Processor's scaling and reliable event detection functionality without the need to maintain any worker infrastructure.
 
 ![Diagram showing the change feed triggering Azure Functions for processing.](./media/functions-change-feed.png)
 

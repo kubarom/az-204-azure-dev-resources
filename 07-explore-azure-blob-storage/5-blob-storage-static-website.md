@@ -33,5 +33,5 @@ Disabling public access on a storage account by using the public access setting 
 
 You can make your static website available via a custom domain.
 
-It's easier to enable HTTP access for your custom domain, because Azure Storage natively supports it. To enable HTTPS, you have to use Azure CDN because Azure Storage doesn't yet natively support HTTPS with custom domains. Visit [Map a custom domain to an Azure Blob Storage endpoint](/azure/storage/blobs/storage-custom-domain-name) for step-by-step guidance.
+It's easier to enable HTTP access for your custom domain, because Azure Storage natively supports it. To enable HTTPS, you have to use Azure CDN because Azure Storage doesn't yet natively support HTTPS with custom domains. Visit [Map a custom domain to an Azure Blob Storage endpoint](https://learn.microsoft.com/en-us/azure/storage/blobs/storage-custom-domain-name) for step-by-step guidance.
 

@@ -7,7 +7,7 @@ Auto-instrumentation is the preferred instrumentation method. It requires no dev
 
 In essence, all you have to do is enable and - in some cases - configure the agent, which collects the telemetry automatically.
 
-The list of services supported by auto-instrumentation changes rapidly, visit this [page](/azure/azure-monitor/app/codeless-overview#supported-environments-languages-and-resource-providers) for a list of what is currently supported.
+The list of services supported by auto-instrumentation changes rapidly, visit this [page](https://learn.microsoft.com/en-us/azure/azure-monitor/app/codeless-overview#supported-environments-languages-and-resource-providers) for a list of what is currently supported.
 
 ## Enabling via Application Insights SDKs
 

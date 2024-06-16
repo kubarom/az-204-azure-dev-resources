@@ -3,7 +3,7 @@ API Management provides the core functionality to ensure a successful API progra
 
 ## API Management components
 
-Azure API Management is made up of an *API gateway*, a *management plane*, and a *developer portal*. These components are Azure-hosted and fully managed by default. API Management is available in various [tiers](/azure/api-management/api-management-features) differing in capacity and features.
+Azure API Management is made up of an *API gateway*, a *management plane*, and a *developer portal*. These components are Azure-hosted and fully managed by default. API Management is available in various [tiers](https://learn.microsoft.com/en-us/azure/api-management/api-management-features) differing in capacity and features.
 
 * The **API gateway** is the endpoint that:
     * Accepts API calls and routes them to appropriate backends

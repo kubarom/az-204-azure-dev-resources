@@ -1,4 +1,4 @@
-When you create a function app in Azure, you must choose a hosting plan for your app. There are three basic hosting plans available for Azure Functions: [Consumption plan](/azure/azure-functions/consumption-plan), [Premium plan](/azure/azure-functions/functions-premium-plan), and [App service plan (Dedicated)](/azure/azure-functions/dedicated-plan). All hosting plans are generally available (GA) on both Linux and Windows virtual machines.
+When you create a function app in Azure, you must choose a hosting plan for your app. There are three basic hosting plans available for Azure Functions: [Consumption plan](https://learn.microsoft.com/en-us/azure/azure-functions/consumption-plan), [Premium plan](https://learn.microsoft.com/en-us/azure/azure-functions/functions-premium-plan), and [App service plan (Dedicated)](https://learn.microsoft.com/en-us/azure/azure-functions/dedicated-plan). All hosting plans are generally available (GA) on both Linux and Windows virtual machines.
 
 The hosting plan you choose dictates the following behaviors:
 
@@ -12,14 +12,14 @@ Following is a summary of the benefits of the three main hosting plans for Funct
 |--|--|
 | **Consumption plan** | This is the default hosting plan. It scales automatically and you only pay for compute resources when your functions are running. Instances of the Functions host are dynamically added and removed based on the number of incoming events. |
 | **Premium plan** | Automatically scales based on demand using pre-warmed workers, which run applications with no delay after being idle, runs on more powerful instances, and connects to virtual networks. |
-| **Dedicated plan** | Run your functions within an App Service plan at regular App Service plan rates. Best for long-running scenarios where [Durable Functions](/azure/azure-functions/durable/durable-functions-overview) can't be used. |
+| **Dedicated plan** | Run your functions within an App Service plan at regular App Service plan rates. Best for long-running scenarios where [Durable Functions](https://learn.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview) can't be used. |
 
 There are two other hosting options, which provide the highest amount of control and isolation in which to run your function apps.
 
 | Hosting option | Details |
 |---|---|
-| **ASE** | [App Service Environment (ASE)](/azure/app-service/environment/intro) is an App Service feature that provides a fully isolated and dedicated environment for securely running App Service apps at high scale. |
-| **Kubernetes** ([Direct](/azure/azure-functions/functions-kubernetes-keda) or [Azure Arc](/azure/app-service/overview-arc-integration)) | Kubernetes provides a fully isolated and dedicated environment running on top of the Kubernetes platform. |
+| **ASE** | [App Service Environment (ASE)](https://learn.microsoft.com/en-us/azure/app-service/environment/intro) is an App Service feature that provides a fully isolated and dedicated environment for securely running App Service apps at high scale. |
+| **Kubernetes** ([Direct](https://learn.microsoft.com/en-us/azure/azure-functions/functions-kubernetes-keda) or [Azure Arc](https://learn.microsoft.com/en-us/azure/app-service/overview-arc-integration)) | Kubernetes provides a fully isolated and dedicated environment running on top of the Kubernetes platform. |
 
 
 ## Hosting plans and scaling
@@ -35,7 +35,7 @@ The following table compares the scaling behaviors of the various hosting plans.
 | **Kubernetes** | Event-driven autoscale for Kubernetes clusters using KEDA. | Varies by cluster | 
 
 > [!NOTE]
-> The maximum scale out can vary by region and hosting plan. For more information, visit the [Premium plan article](/azure/azure-functions/functions-premium-plan#region-max-scale-out) and [App Service plan limits](/azure/azure-resource-manager/management/azure-subscription-service-limits#app-service-limits).
+> The maximum scale out can vary by region and hosting plan. For more information, visit the [Premium plan article](https://learn.microsoft.com/en-us/azure/azure-functions/functions-premium-plan#region-max-scale-out) and [App Service plan limits](https://learn.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#app-service-limits).
 
 
 ## Function app timeout duration

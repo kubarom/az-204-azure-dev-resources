@@ -8,7 +8,7 @@ Azure Container Instances (ACI) is a great solution for any scenario that can op
 * **Persistent storage**: Mount Azure Files shares directly to a container to retrieve and persist state
 * **Linux and Windows**: Schedule both Windows and Linux containers using the same API.
 
-For scenarios where you need full container orchestration, including service discovery across multiple containers, automatic scaling, and coordinated application upgrades, we recommend [Azure Kubernetes Service (AKS)](/azure/aks/).
+For scenarios where you need full container orchestration, including service discovery across multiple containers, automatic scaling, and coordinated application upgrades, we recommend [Azure Kubernetes Service (AKS)](https://learn.microsoft.com/en-us/azure/aks/).
 
 ## Container groups
 

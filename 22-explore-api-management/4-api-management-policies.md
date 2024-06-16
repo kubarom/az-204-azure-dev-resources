@@ -38,7 +38,7 @@ Unless the policy specifies otherwise, policy expressions can be used as attribu
 
 Each expression has access to the implicitly provided `context` variable and an allowed subset of .NET Framework types.
 
-[Policy expressions](/azure/api-management/api-management-policy-expressions) provide a sophisticated means to control traffic and modify API behavior without requiring you to write specialized code or modify backend services. 
+[Policy expressions](https://learn.microsoft.com/en-us/azure/api-management/api-management-policy-expressions) provide a sophisticated means to control traffic and modify API behavior without requiring you to write specialized code or modify backend services. 
 
 The following example uses policy expressions and the set-header policy to add user data to the incoming request. The added header includes the user ID associated with the subscription key in the request, and the region where the gateway processing the request is hosted.
 
