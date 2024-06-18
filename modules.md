@@ -1,3 +1,5 @@
+# Learning materials
+
 - [ ] [Introduction to azure app service](https://learn.microsoft.com/en-us/training/modules/introduction-to-azure-app-service)
 - [ ] [Configure web app settings](https://learn.microsoft.com/en-us/training/modules/configure-web-app-settings)
 - [ ] [Scale apps app service](https://learn.microsoft.com/en-us/training/modules/scale-apps-app-service)
@@ -27,3 +29,24 @@
 - [ ] [Monitor app performance](https://learn.microsoft.com/en-us/training/modules/monitor-app-performance)
 - [ ] [Develop for azure cache for redis](https://learn.microsoft.com/en-us/training/modules/develop-for-azure-cache-for-redis)
 - [ ] [Develop for storage cdns](https://learn.microsoft.com/en-us/training/modules/develop-for-storage-cdns)
+
+
+
+# Official documentation:
+
+ - [Azure documentation](https://learn.microsoft.com/en-us/azure/?product=featured)
+ - [Container Registry](https://learn.microsoft.com/en-us/azure/container-registry/)
+ - [Container Instances](https://learn.microsoft.com/en-us/azure/container-instances/)
+ - [App Service](https://learn.microsoft.com/en-us/azure/app-service/)
+ - [Azure Functions](https://learn.microsoft.com/en-us/azure/azure-functions/)
+ - [Azure Cosmos DB](https://learn.microsoft.com/en-us/azure/cosmos-db/)
+ - [Blob Storage](https://learn.microsoft.com/en-us/azure/storage/blobs/)
+ - [Microsoft Entra ID](https://learn.microsoft.com/en-us/azure/active-directory/)
+ - [Key Vault](https://learn.microsoft.com/en-us/azure/key-vault/)
+ - [Azure Cache for Redis](https://learn.microsoft.com/en-us/azure/azure-cache-for-redis/)
+ - [API Apps](https://learn.microsoft.com/en-us/azure/app-service/)
+ - [API Management](https://learn.microsoft.com/en-us/azure/api-management/)
+ - [Event Hubs](https://learn.microsoft.com/en-us/azure/event-hubs/)
+ - [Event Grid](https://learn.microsoft.com/en-us/azure/event-grid/)
+ - [Service Bus Messaging](https://learn.microsoft.com/en-us/azure/service-bus-messaging/)
+ - [Queue Storage](https://learn.microsoft.com/en-us/azure/storage/queues/)
